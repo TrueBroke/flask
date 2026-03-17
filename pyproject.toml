@@ -1,0 +1,12 @@
+[project]
+name = "flask_business_card"
+version = "0.1.0"
+description = "Simple business card website"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
