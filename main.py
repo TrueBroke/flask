@@ -6,11 +6,11 @@ def home():
 
 @app.route('/about')
 def about():
-    return '<h1>О нас</h1>'
+    return render_template("about.html")
 
 @app.route('/contact')
 def contact():
-    return '<h1>Наши контакты</h1>'
+    return render_template("contact.html")
 
 @app.route('/user')
 @app.route('/profile')
